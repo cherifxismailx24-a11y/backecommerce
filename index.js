@@ -8,7 +8,7 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://endearing-alfajores-fa1fa6.netlify.app',
   credentials: true 
 }))
 
